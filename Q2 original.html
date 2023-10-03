@@ -142,10 +142,10 @@
     function addTodo(){
       const inputElement = document.querySelector('.js-list');
       if(inputElement.value === ''){
+        alert("Write something first!")
       } 
       else{
         const name = inputElement.value;
-
         listHTML.push(name); 
         console.log(listHTML); 
 
